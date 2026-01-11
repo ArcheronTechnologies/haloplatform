@@ -147,7 +147,7 @@ async def pull_all_entities():
     """Pull all active entities from SCB directly to SQLite."""
 
     data_dir = Path(__file__).parent.parent / "data"
-    cert_path = data_dir / "scb_cert.pfx"
+    cert_path = data_dir / "[REDACTED_CERT]"
     db_path = data_dir / "scb_registry.db"
 
     if not cert_path.exists():

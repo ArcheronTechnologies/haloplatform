@@ -149,8 +149,7 @@ for file in "${PYTHON_FILES[@]}"; do
             -e 's|"L4bi0Wh_pDiMZ7GrKb9PYd1274oa"|"[REDACTED_CLIENT_SECRET]"|g' \
             -e "s|'L4bi0Wh_pDiMZ7GrKb9PYd1274oa'|'[REDACTED_CLIENT_SECRET]'|g" \
             -e 's|=L4bi0Wh_pDiMZ7GrKb9PYd1274oa|=[REDACTED_CLIENT_SECRET]|g' \
-            -e 's|data/scb_cert\.pfx|data/[REDACTED_CERT]|g' \
-            -e 's|/app/secrets/scb_cert\.pfx|/app/secrets/[REDACTED_CERT]|g' \
+            -e 's|scb_cert\.pfx|[REDACTED_CERT]|g' \
             "$file"
 
         rm "${file}.bak"

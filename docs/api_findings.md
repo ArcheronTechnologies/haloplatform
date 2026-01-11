@@ -33,6 +33,13 @@
   For internal use, see: .data_sources_local/
 -->
 
+<!--
+  THIS IS A REDACTED VERSION FOR PUBLIC REPOSITORY
+  Original with full API details: api_findings.local.md
+  Redacted: API endpoints, credentials, rate limits, data layouts
+  For internal use, see: .data_sources_local/
+-->
+
 # Bolagsverket HVD API - Exploration Findings
 
 ## Summary

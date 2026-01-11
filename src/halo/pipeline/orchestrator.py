@@ -349,7 +349,7 @@ class PipelineOrchestrator:
             from halo.ingestion.scb_foretag import SCBForetagAdapter
 
             # Check for certificate
-            cert_path = self.data_dir / "scb_cert.pfx"
+            cert_path = self.data_dir / "[REDACTED_CERT]"
             if not cert_path.exists():
                 logger.warning("SCB certificate not found, using existing org number files")
                 # Fall back to loading from JSON files
