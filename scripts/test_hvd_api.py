@@ -10,14 +10,14 @@ import re
 from xml.etree import ElementTree as ET
 
 async def test_hvd():
-    client_id = "AnQ27kXW8z4sdOMJHJuFJGf5AFIa"
-    client_secret = "L4bi0Wh_pDiMZ7GrKb9PYd1274oa"
+    client_id = "[REDACTED_CLIENT_ID]"
+    client_secret = "[REDACTED_CLIENT_SECRET]"
     scopes = "vardefulla-datamangder:ping vardefulla-datamangder:read"
 
     async with httpx.AsyncClient(timeout=60.0) as client:
         # Get token
         token_resp = await client.post(
-            "https://portal.api.bolagsverket.se/oauth2/token",
+            "[REDACTED_GOV_API]",
             data={
                 "grant_type": "client_credentials",
                 "client_id": client_id,
@@ -34,7 +34,7 @@ async def test_hvd():
 
         print(f"Downloading document for {orgnr}...")
         dl_resp = await client.get(
-            f"https://gw.api.bolagsverket.se/vardefulla-datamangder/v1/dokument/{doc_id}",
+            f"[REDACTED_GOV_API]",
             headers={"Authorization": f"Bearer {token}"}
         )
 

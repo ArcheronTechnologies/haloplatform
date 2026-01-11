@@ -72,8 +72,8 @@ async def test_orgnrs(orgnrs: list[str], limit: int = 100) -> list[str]:
     from halo.ingestion.bolagsverket_hvd import BolagsverketHVDAdapter
 
     adapter = BolagsverketHVDAdapter(
-        client_id="AnQ27kXW8z4sdOMJHJuFJGf5AFIa",
-        client_secret="L4bi0Wh_pDiMZ7GrKb9PYd1274oa",
+        client_id="[REDACTED_CLIENT_ID]",
+        client_secret="[REDACTED_CLIENT_SECRET]",
         use_test=False,
     )
 
@@ -147,8 +147,8 @@ async def main():
     from halo.ingestion.bolagsverket_hvd import BolagsverketHVDAdapter
 
     adapter = BolagsverketHVDAdapter(
-        client_id="AnQ27kXW8z4sdOMJHJuFJGf5AFIa",
-        client_secret="L4bi0Wh_pDiMZ7GrKb9PYd1274oa",
+        client_id="[REDACTED_CLIENT_ID]",
+        client_secret="[REDACTED_CLIENT_SECRET]",
         use_test=False,
     )
 

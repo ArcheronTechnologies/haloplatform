@@ -120,8 +120,8 @@ async def main():
     print("=" * 70)
 
     # Initialize adapter with certificate
-    cert_path = Path("data/scb_cert.pfx")
-    cert_password = "uyMBu2LtKfiY"
+    cert_path = Path("data/[REDACTED_CERT]")
+    cert_password = "[REDACTED_PASSWORD]"
 
     if not cert_path.exists():
         print(f"ERROR: Certificate not found at {cert_path}")

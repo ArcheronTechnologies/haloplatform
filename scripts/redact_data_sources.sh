@@ -105,15 +105,26 @@ for file in "${SENSITIVE_FILES[@]}"; do
 done
 
 # Redact Python files
-echo -e "${YELLOW}Processing Python ingestion files...${NC}"
+echo -e "${YELLOW}Processing Python files with credentials...${NC}"
 echo ""
 
-PYTHON_FILES=(
-    "src/halo/ingestion/scb_foretag.py"
-    "src/halo/ingestion/scb_pxweb.py"
-    "src/halo/ingestion/bolagsverket_hvd.py"
-    "src/halo/ingestion/allabolag_adapter.py"
+# Find all Python files that may contain credentials
+PYTHON_PATTERNS=(
+    "src/halo/ingestion/*.py"
+    "src/halo/scripts/*.py"
+    "src/halo/pipeline/*.py"
+    "scripts/*.py"
 )
+
+# Collect all matching files
+PYTHON_FILES=()
+for pattern in "${PYTHON_PATTERNS[@]}"; do
+    for file in $pattern; do
+        if [ -f "$file" ] && [ "$(basename $file)" != "redact_data_sources.sh" ]; then
+            PYTHON_FILES+=("$file")
+        fi
+    done
+done
 
 for file in "${PYTHON_FILES[@]}"; do
     if [ -f "$file" ]; then
@@ -124,11 +135,19 @@ for file in "${PYTHON_FILES[@]}"; do
         cp "$file" "$local_file"
         echo "  ✓ Backed up to: $local_file"
 
-        # Redact URLs in comments and strings
+        # Redact URLs, credentials, and sensitive strings
         sed -i.bak \
             -e 's|https://[^ "]*scb\.se[^ "]*|[REDACTED_API_ENDPOINT]|g' \
             -e 's|https://[^ "]*bolagsverket\.se[^ "]*|[REDACTED_GOV_API]|g' \
             -e 's|https://[^ "]*allabolag\.se[^ "]*|[REDACTED_COMMERCIAL_API]|g' \
+            -e 's|"uyMBu2LtKfiY"|"[REDACTED_PASSWORD]"|g' \
+            -e 's|=uyMBu2LtKfiY|=[REDACTED_PASSWORD]|g' \
+            -e 's|"AnQ27kXW8z4sdOMJHJuFJGf5AFIa"|"[REDACTED_CLIENT_ID]"|g' \
+            -e 's|=AnQ27kXW8z4sdOMJHJuFJGf5AFIa|=[REDACTED_CLIENT_ID]|g' \
+            -e 's|"L4bi0Wh_pDiMZ7GrKb9PYd1274oa"|"[REDACTED_CLIENT_SECRET]"|g' \
+            -e 's|=L4bi0Wh_pDiMZ7GrKb9PYd1274oa|=[REDACTED_CLIENT_SECRET]|g' \
+            -e 's|data/scb_cert\.pfx|data/[REDACTED_CERT]|g' \
+            -e 's|/app/secrets/scb_cert\.pfx|/app/secrets/[REDACTED_CERT]|g' \
             "$file"
 
         rm "${file}.bak"

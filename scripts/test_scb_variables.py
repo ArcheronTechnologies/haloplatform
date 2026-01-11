@@ -14,7 +14,7 @@ import tempfile
 
 async def main():
     cert_path = Path("./halo/secrets/scb_cert.p12")
-    cert_password = "uyMBu2LtKfiY"
+    cert_password = "[REDACTED_PASSWORD]"
 
     # Extract PEM from PFX
     with open(cert_path, 'rb') as f:
@@ -39,7 +39,7 @@ async def main():
             encryption_algorithm=NoEncryption()
         ))
 
-    base_url = "https://privateapi.scb.se/nv0101/v1/sokpavar"
+    base_url = "[REDACTED_API_ENDPOINT]"
 
     async with httpx.AsyncClient(cert=(str(cert_pem_path), str(key_pem_path)), timeout=120.0) as client:
         # First, get available variables

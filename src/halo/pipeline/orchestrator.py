@@ -360,7 +360,7 @@ class PipelineOrchestrator:
             # Initialize adapter
             adapter = SCBForetagAdapter(
                 cert_path=cert_path,
-                cert_password="uyMBu2LtKfiY"  # From existing scripts
+                cert_password="[REDACTED_PASSWORD]"  # From existing scripts
             )
 
             try:

@@ -155,7 +155,7 @@ async def pull_all_entities():
         return
 
     from halo.ingestion.scb_foretag import SCBForetagAdapter
-    adapter = SCBForetagAdapter(cert_path=cert_path, cert_password="uyMBu2LtKfiY")
+    adapter = SCBForetagAdapter(cert_path=cert_path, cert_password="[REDACTED_PASSWORD]")
     client = await adapter._get_client()
 
     # Initialize database
@@ -206,7 +206,7 @@ async def pull_all_entities():
                 }
 
                 response = await client.post(
-                    'https://privateapi.scb.se/nv0101/v1/sokpavar/api/Je/HamtaForetag',
+                    '[REDACTED_API_ENDPOINT]
                     json=params,
                     headers={'Accept': 'application/json', 'Content-Type': 'application/json'},
                 )

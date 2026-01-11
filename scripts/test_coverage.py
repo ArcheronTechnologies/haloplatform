@@ -20,8 +20,8 @@ logger = logging.getLogger(__name__)
 
 async def test_coverage():
     config = PipelineConfig(
-        bv_client_id="AnQ27kXW8z4sdOMJHJuFJGf5AFIa",
-        bv_client_secret="L4bi0Wh_pDiMZ7GrKb9PYd1274oa",
+        bv_client_id="[REDACTED_CLIENT_ID]",
+        bv_client_secret="[REDACTED_CLIENT_SECRET]",
         min_confidence=0.5,
         rate_limit_delay=1.0,  # 1 second between requests
     )
