@@ -1,0 +1,636 @@
+{
+  "analysis_timestamp": "2025-12-22T22:17:20.016870",
+  "summary": {
+    "total_companies": 1000,
+    "total_addresses": 929,
+    "risk_distribution": {
+      "low": 721,
+      "medium": 268,
+      "high": 11
+    },
+    "high_risk_count": 11,
+    "medium_risk_count": 268,
+    "suspicious_address_count": 3,
+    "generic_sni_count": 568
+  },
+  "high_risk_companies": [
+    {
+      "company_id": "company-5560004433",
+      "orgnr": "5560004433",
+      "name": "Bostadsaktiebolaget Enighet",
+      "legal_form": "49",
+      "indicators": {
+        "no_tax_registrations": true,
+        "f_skatt_no_vat": false,
+        "vat_no_f_skatt": false,
+        "no_employees": true,
+        "ab_no_activity": true,
+        "generic_sni": true,
+        "recently_formed": false
+      },
+      "shell_score": 0.9,
+      "risk_level": "high",
+      "flags": [
+        {
+          "type": "no_tax_registrations",
+          "severity": "high",
+          "detail": "No F-skatt, no VAT - no economic activity registrations"
+        },
+        {
+          "type": "no_employees",
+          "severity": "medium",
+          "detail": "Size class: 0 anst\u00e4llda"
+        },
+        {
+          "type": "ab_no_activity",
+          "severity": "high",
+          "detail": "Aktiebolag with no tax registrations - classic shell structure"
+        },
+        {
+          "type": "generic_sni_code",
+          "severity": "low",
+          "detail": "SNI: 68201: Uthyrning och f\u00f6rvaltning av egna eller arrenderade bost\u00e4der"
+        },
+        {
+          "type": "high_shell_probability",
+          "severity": "high",
+          "detail": "Shell score: 90% (4 indicators)"
+        }
+      ]
+    },
+    {
+      "company_id": "company-5560004508",
+      "orgnr": "5560004508",
+      "name": "BOSTADSAKTIEBOLAGET ESPLANADEN",
+      "legal_form": "49",
+      "indicators": {
+        "no_tax_registrations": true,
+        "f_skatt_no_vat": false,
+        "vat_no_f_skatt": false,
+        "no_employees": true,
+        "ab_no_activity": true,
+        "generic_sni": true,
+        "recently_formed": false
+      },
+      "shell_score": 0.9,
+      "risk_level": "high",
+      "flags": [
+        {
+          "type": "no_tax_registrations",
+          "severity": "high",
+          "detail": "No F-skatt, no VAT - no economic activity registrations"
+        },
+        {
+          "type": "no_employees",
+          "severity": "medium",
+          "detail": "Size class: 0 anst\u00e4llda"
+        },
+        {
+          "type": "ab_no_activity",
+          "severity": "high",
+          "detail": "Aktiebolag with no tax registrations - classic shell structure"
+        },
+        {
+          "type": "generic_sni_code",
+          "severity": "low",
+          "detail": "SNI: 68201: Uthyrning och f\u00f6rvaltning av egna eller arrenderade bost\u00e4der"
+        },
+        {
+          "type": "high_shell_probability",
+          "severity": "high",
+          "detail": "Shell score: 90% (4 indicators)"
+        }
+      ]
+    },
+    {
+      "company_id": "company-5560008160",
+      "orgnr": "5560008160",
+      "name": "BOSTADSAKTIEBOLAGET PRESTO",
+      "legal_form": "49",
+      "indicators": {
+        "no_tax_registrations": true,
+        "f_skatt_no_vat": false,
+        "vat_no_f_skatt": false,
+        "no_employees": true,
+        "ab_no_activity": true,
+        "generic_sni": true,
+        "recently_formed": false
+      },
+      "shell_score": 0.9,
+      "risk_level": "high",
+      "flags": [
+        {
+          "type": "no_tax_registrations",
+          "severity": "high",
+          "detail": "No F-skatt, no VAT - no economic activity registrations"
+        },
+        {
+          "type": "no_employees",
+          "severity": "medium",
+          "detail": "Size class: 0 anst\u00e4llda"
+        },
+        {
+          "type": "ab_no_activity",
+          "severity": "high",
+          "detail": "Aktiebolag with no tax registrations - classic shell structure"
+        },
+        {
+          "type": "generic_sni_code",
+          "severity": "low",
+          "detail": "SNI: 68204: F\u00f6rvaltning i bostadsr\u00e4ttsf\u00f6reningar"
+        },
+        {
+          "type": "high_shell_probability",
+          "severity": "high",
+          "detail": "Shell score: 90% (4 indicators)"
+        }
+      ]
+    },
+    {
+      "company_id": "company-5560013665",
+      "orgnr": "5560013665",
+      "name": "WERLDSGOODTEMPLARORDENS I HELSINGBORG AB",
+      "legal_form": "49",
+      "indicators": {
+        "no_tax_registrations": true,
+        "f_skatt_no_vat": false,
+        "vat_no_f_skatt": false,
+        "no_employees": true,
+        "ab_no_activity": true,
+        "generic_sni": true,
+        "recently_formed": false
+      },
+      "shell_score": 0.9,
+      "risk_level": "high",
+      "flags": [
+        {
+          "type": "no_tax_registrations",
+          "severity": "high",
+          "detail": "No F-skatt, no VAT - no economic activity registrations"
+        },
+        {
+          "type": "no_employees",
+          "severity": "medium",
+          "detail": "Size class: 0 anst\u00e4llda"
+        },
+        {
+          "type": "ab_no_activity",
+          "severity": "high",
+          "detail": "Aktiebolag with no tax registrations - classic shell structure"
+        },
+        {
+          "type": "generic_sni_code",
+          "severity": "low",
+          "detail": "SNI: 64994: F\u00f6rvaltning av och handel med v\u00e4rdepapper, f\u00f6r en begr\u00e4nsad och sluten krets av \u00e4gare"
+        },
+        {
+          "type": "high_shell_probability",
+          "severity": "high",
+          "detail": "Shell score: 90% (4 indicators)"
+        }
+      ]
+    },
+    {
+      "company_id": "company-5560150889",
+      "orgnr": "5560150889",
+      "name": "F\u00d6RVALTNINGSAKTIEBOLAGET E.G.I.A.",
+      "legal_form": "49",
+      "indicators": {
+        "no_tax_registrations": true,
+        "f_skatt_no_vat": false,
+        "vat_no_f_skatt": false,
+        "no_employees": true,
+        "ab_no_activity": true,
+        "generic_sni": true,
+        "recently_formed": false
+      },
+      "shell_score": 0.9,
+      "risk_level": "high",
+      "flags": [
+        {
+          "type": "no_tax_registrations",
+          "severity": "high",
+          "detail": "No F-skatt, no VAT - no economic activity registrations"
+        },
+        {
+          "type": "no_employees",
+          "severity": "medium",
+          "detail": "Size class: 0 anst\u00e4llda"
+        },
+        {
+          "type": "ab_no_activity",
+          "severity": "high",
+          "detail": "Aktiebolag with no tax registrations - classic shell structure"
+        },
+        {
+          "type": "generic_sni_code",
+          "severity": "low",
+          "detail": "SNI: 64994: F\u00f6rvaltning av och handel med v\u00e4rdepapper, f\u00f6r en begr\u00e4nsad och sluten krets av \u00e4gare"
+        },
+        {
+          "type": "high_shell_probability",
+          "severity": "high",
+          "detail": "Shell score: 90% (4 indicators)"
+        }
+      ]
+    },
+    {
+      "company_id": "company-5560240045",
+      "orgnr": "5560240045",
+      "name": "BYGGNADSAKTIEBOLAGET FIDELITAS",
+      "legal_form": "49",
+      "indicators": {
+        "no_tax_registrations": true,
+        "f_skatt_no_vat": false,
+        "vat_no_f_skatt": false,
+        "no_employees": true,
+        "ab_no_activity": true,
+        "generic_sni": true,
+        "recently_formed": false
+      },
+      "shell_score": 0.9,
+      "risk_level": "high",
+      "flags": [
+        {
+          "type": "no_tax_registrations",
+          "severity": "high",
+          "detail": "No F-skatt, no VAT - no economic activity registrations"
+        },
+        {
+          "type": "no_employees",
+          "severity": "medium",
+          "detail": "Size class: 0 anst\u00e4llda"
+        },
+        {
+          "type": "ab_no_activity",
+          "severity": "high",
+          "detail": "Aktiebolag with no tax registrations - classic shell structure"
+        },
+        {
+          "type": "generic_sni_code",
+          "severity": "low",
+          "detail": "SNI: 68203: Uthyrning och f\u00f6rvaltning av egna eller arrenderade, andra lokaler"
+        },
+        {
+          "type": "high_shell_probability",
+          "severity": "high",
+          "detail": "Shell score: 90% (4 indicators)"
+        }
+      ]
+    },
+    {
+      "company_id": "company-5560256280",
+      "orgnr": "5560256280",
+      "name": "NORRTULL ENERGI AB",
+      "legal_form": "49",
+      "indicators": {
+        "no_tax_registrations": true,
+        "f_skatt_no_vat": false,
+        "vat_no_f_skatt": false,
+        "no_employees": true,
+        "ab_no_activity": true,
+        "generic_sni": true,
+        "recently_formed": false
+      },
+      "shell_score": 0.9,
+      "risk_level": "high",
+      "flags": [
+        {
+          "type": "no_tax_registrations",
+          "severity": "high",
+          "detail": "No F-skatt, no VAT - no economic activity registrations"
+        },
+        {
+          "type": "no_employees",
+          "severity": "medium",
+          "detail": "Size class: 0 anst\u00e4llda"
+        },
+        {
+          "type": "ab_no_activity",
+          "severity": "high",
+          "detail": "Aktiebolag with no tax registrations - classic shell structure"
+        },
+        {
+          "type": "generic_sni_code",
+          "severity": "low",
+          "detail": "SNI: 64212: Holdingverksamhet i icke-finansiella koncerner"
+        },
+        {
+          "type": "high_shell_probability",
+          "severity": "high",
+          "detail": "Shell score: 90% (4 indicators)"
+        }
+      ]
+    },
+    {
+      "company_id": "company-5560260415",
+      "orgnr": "5560260415",
+      "name": "Top On Top AB",
+      "legal_form": "49",
+      "indicators": {
+        "no_tax_registrations": true,
+        "f_skatt_no_vat": false,
+        "vat_no_f_skatt": false,
+        "no_employees": true,
+        "ab_no_activity": true,
+        "generic_sni": true,
+        "recently_formed": false
+      },
+      "shell_score": 0.9,
+      "risk_level": "high",
+      "flags": [
+        {
+          "type": "no_tax_registrations",
+          "severity": "high",
+          "detail": "No F-skatt, no VAT - no economic activity registrations"
+        },
+        {
+          "type": "no_employees",
+          "severity": "medium",
+          "detail": "Size class: 0 anst\u00e4llda"
+        },
+        {
+          "type": "ab_no_activity",
+          "severity": "high",
+          "detail": "Aktiebolag with no tax registrations - classic shell structure"
+        },
+        {
+          "type": "generic_sni_code",
+          "severity": "low",
+          "detail": "SNI: 64212: Holdingverksamhet i icke-finansiella koncerner"
+        },
+        {
+          "type": "high_shell_probability",
+          "severity": "high",
+          "detail": "Shell score: 90% (4 indicators)"
+        }
+      ]
+    },
+    {
+      "company_id": "company-5560019365",
+      "orgnr": "5560019365",
+      "name": "\u00d6REBRO L\u00c4NS TR\u00c4DG\u00c5RDSAKTIEBOLAG",
+      "legal_form": "49",
+      "indicators": {
+        "no_tax_registrations": true,
+        "f_skatt_no_vat": false,
+        "vat_no_f_skatt": false,
+        "no_employees": true,
+        "ab_no_activity": true,
+        "generic_sni": false,
+        "recently_formed": false
+      },
+      "shell_score": 0.8,
+      "risk_level": "high",
+      "flags": [
+        {
+          "type": "no_tax_registrations",
+          "severity": "high",
+          "detail": "No F-skatt, no VAT - no economic activity registrations"
+        },
+        {
+          "type": "no_employees",
+          "severity": "medium",
+          "detail": "Size class: 0 anst\u00e4llda"
+        },
+        {
+          "type": "ab_no_activity",
+          "severity": "high",
+          "detail": "Aktiebolag with no tax registrations - classic shell structure"
+        },
+        {
+          "type": "high_shell_probability",
+          "severity": "high",
+          "detail": "Shell score: 80% (3 indicators)"
+        }
+      ]
+    },
+    {
+      "company_id": "company-5560056045",
+      "orgnr": "5560056045",
+      "name": "AKTIEBOLAGET G\u00d6TEBORGS KONSERTHUS",
+      "legal_form": "49",
+      "indicators": {
+        "no_tax_registrations": true,
+        "f_skatt_no_vat": false,
+        "vat_no_f_skatt": false,
+        "no_employees": true,
+        "ab_no_activity": true,
+        "generic_sni": false,
+        "recently_formed": false
+      },
+      "shell_score": 0.8,
+      "risk_level": "high",
+      "flags": [
+        {
+          "type": "no_tax_registrations",
+          "severity": "high",
+          "detail": "No F-skatt, no VAT - no economic activity registrations"
+        },
+        {
+          "type": "no_employees",
+          "severity": "medium",
+          "detail": "Size class: 0 anst\u00e4llda"
+        },
+        {
+          "type": "ab_no_activity",
+          "severity": "high",
+          "detail": "Aktiebolag with no tax registrations - classic shell structure"
+        },
+        {
+          "type": "high_shell_probability",
+          "severity": "high",
+          "detail": "Shell score: 80% (3 indicators)"
+        }
+      ]
+    },
+    {
+      "company_id": "company-5560026766",
+      "orgnr": "5560026766",
+      "name": "Biovestor Aktiebolag",
+      "legal_form": "49",
+      "indicators": {
+        "no_tax_registrations": true,
+        "f_skatt_no_vat": false,
+        "vat_no_f_skatt": false,
+        "no_employees": false,
+        "ab_no_activity": true,
+        "generic_sni": true,
+        "recently_formed": false
+      },
+      "shell_score": 0.75,
+      "risk_level": "high",
+      "flags": [
+        {
+          "type": "no_tax_registrations",
+          "severity": "high",
+          "detail": "No F-skatt, no VAT - no economic activity registrations"
+        },
+        {
+          "type": "ab_no_activity",
+          "severity": "high",
+          "detail": "Aktiebolag with no tax registrations - classic shell structure"
+        },
+        {
+          "type": "generic_sni_code",
+          "severity": "low",
+          "detail": "SNI: 64994: F\u00f6rvaltning av och handel med v\u00e4rdepapper, f\u00f6r en begr\u00e4nsad och sluten krets av \u00e4gare"
+        },
+        {
+          "type": "high_shell_probability",
+          "severity": "high",
+          "detail": "Shell score: 75% (3 indicators)"
+        }
+      ]
+    }
+  ],
+  "suspicious_addresses": [
+    {
+      "address_id": "address-82c11218",
+      "company_count": 6,
+      "city": "STOCKHOLM",
+      "postal_code": "101 20",
+      "street": "BOX 1",
+      "company_ids": [
+        "company-5560001348",
+        "company-5560143280",
+        "company-5560151275",
+        "company-5560187527",
+        "company-5560228354",
+        "company-5560266685"
+      ],
+      "is_suspicious": true
+    },
+    {
+      "address_id": "address-9a9c414b",
+      "company_count": 5,
+      "city": "SOLNA",
+      "postal_code": "169 03",
+      "street": "BOX 3030",
+      "company_ids": [
+        "company-5560005158",
+        "company-5560005539",
+        "company-5560068230",
+        "company-5560176678",
+        "company-5560182379"
+      ],
+      "is_suspicious": true
+    },
+    {
+      "address_id": "address-9170f7c7",
+      "company_count": 5,
+      "city": "STOCKHOLM",
+      "postal_code": "111 77",
+      "street": "NK 100",
+      "company_ids": [
+        "company-5560086281",
+        "company-5560128240",
+        "company-5560187238",
+        "company-5560194358",
+        "company-5560195405"
+      ],
+      "is_suspicious": true
+    }
+  ],
+  "sni_distribution": {
+    "distribution": {
+      "68": 369,
+      "46": 228,
+      "70": 91,
+      "47": 90,
+      "64": 76,
+      "35": 54,
+      "52": 52,
+      "02": 51,
+      "28": 39,
+      "58": 35,
+      "43": 35,
+      "20": 33,
+      "25": 28,
+      "10": 26,
+      "62": 22,
+      "01": 21,
+      "95": 20,
+      "38": 20,
+      "17": 19,
+      "16": 19
+    },
+    "names": {
+      "66": "Verksamhet utf\u00f6rd av v\u00e4rdepappers- och varum\u00e4klare",
+      "50": "Regulj\u00e4r sj\u00f6trafik \u00f6ver hav och kust av gods",
+      "68": "Uthyrning och f\u00f6rvaltning av egna eller arrenderade bost\u00e4der",
+      "29": "Tillverkning av lastbilar och andra tunga motorfordon",
+      "28": "Tillverkning av motorer och turbiner utom f\u00f6r luftfartyg och fordon",
+      "70": "Konsultverksamhet avseende f\u00f6retags organisation",
+      "64": "Holdingverksamhet i finansiella koncerner",
+      "02": "Skogsf\u00f6rvaltning",
+      "74": "All \u00f6vrig verksamhet inom juridik",
+      "58": "Utgivning av b\u00f6cker",
+      "35": "Generering av elektricitet fr\u00e5n f\u00f6rnybara energik\u00e4llor",
+      "08": "Utvinning av sand",
+      "17": "\u00d6vrig tillverkning av papper och papp",
+      "16": "Tr\u00e4f\u00f6rpackningstillverkning",
+      "31": "Tillverkning av kontors- och butiksm\u00f6bler",
+      "46": "Icke-specialiserad partihandel med livsmedel",
+      "69": "Revision",
+      "52": "St\u00f6dverksamhet avseende sj\u00f6transport",
+      "62": "Annan it- och dataverksamhet",
+      "95": "Reparation och underh\u00e5ll av hush\u00e5llsapparater samt av utrustning f\u00f6r hem och tr\u00e4dg\u00e5rd",
+      "00": "Ok\u00e4nd",
+      "73": "PR och kommunikation",
+      "47": "Detaljhandel med drivmedel",
+      "77": "Uthyrning och leasing av personbilar och l\u00e4tta motorfordon",
+      "11": "Framst\u00e4llning av \u00f6l",
+      "42": "Vattenbyggnad",
+      "82": "Arrangemang av kongresser och m\u00e4ssor",
+      "13": "Tillverkning av andra tekniska textilier och industritextilier",
+      "33": "Reparation och underh\u00e5ll av maskiner",
+      "10": "Tillverkning av lagad mat och f\u00e4rdigr\u00e4tter",
+      "07": "J\u00e4rnmalmsutvinning",
+      "72": "Annan naturvetenskaplig och teknisk forskning och utveckling",
+      "55": "Stug- och rumsuthyrning",
+      "43": "Elinstallationer",
+      "20": "Tillverkning av f\u00e4rg",
+      "93": "Annan sportverksamhet",
+      "24": "Framst\u00e4llning av j\u00e4rn och st\u00e5l samt ferrolegeringar",
+      "38": "\u00c5tervinning av k\u00e4llsorterat material",
+      "25": "Tillverkning av verktyg och redskap",
+      "79": "Turist- och bokningsverksamhet",
+      "91": "Museiverksamhet och museisamlingar",
+      "56": "Restaurangverksamhet",
+      "32": "Tillverkning av tandproteser",
+      "01": "Blandat jordbruk",
+      "63": "Datainfrastruktur",
+      "27": "Tillverkning av elektriska hush\u00e5llsmaskiner och hush\u00e5llsapparater",
+      "59": "Film- och videodistribution",
+      "22": "Bearbetning och slutbehandling av plastvaror",
+      "90": "Scenkonst",
+      "60": "Nyhetsf\u00f6rmedling",
+      "71": "\u00d6vrig teknisk konsultverksamhet",
+      "37": "Avloppsrening",
+      "81": "Fastighetsrelaterad st\u00f6dverksamhet",
+      "85": "Personalutbildning",
+      "41": "Byggande av bostadshus och andra byggnader",
+      "18": "Tryckning av b\u00f6cker och \u00f6vriga trycksaker",
+      "61": "Tr\u00e5dbunden och tr\u00e5dl\u00f6s telekommunikation samt telekommunikation via satellit",
+      "80": "\u00d6vrig s\u00e4kerhetsverksamhet",
+      "86": "Prim\u00e4rv\u00e5rdsmottagningar med l\u00e4kare m.m.",
+      "21": "Tillverkning av l\u00e4kemedel",
+      "23": "Tillverkning av eldfasta produkter",
+      "49": "Regulj\u00e4r v\u00e4gtransport",
+      "75": "Veterin\u00e4rverksamhet",
+      "30": "Diverse \u00f6vrig transportmedelstillverkning",
+      "03": "S\u00f6tvattensfiske",
+      "36": "Vattenf\u00f6rs\u00f6rjning",
+      "94": "Intressebevakning inom branschorganisationer",
+      "78": "Personaluthyrning",
+      "26": "Tillverkning av hemelektronik",
+      "96": "Industri- och institutionstv\u00e4tt",
+      "88": "\u00d6ppna sociala insatser f\u00f6r \u00e4ldre personer",
+      "14": "Tillverkning av g\u00e5ng- och ytterkl\u00e4der",
+      "15": "Tillverkning av skodon",
+      "09": "St\u00f6dverksamhet avseende r\u00e5petroleum- och naturgasutvinning"
+    },
+    "generic_code_count": 568
+  }
+}

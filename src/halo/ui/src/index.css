@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Import Inter font */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+  body {
+    @apply bg-archeron-950 text-archeron-100 antialiased;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar for dark theme */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-archeron-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-archeron-700 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-archeron-600;
+  }
+}
+
+@layer components {
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-archeron-900;
+  }
+
+  .btn-primary {
+    @apply bg-accent-600 text-white hover:bg-accent-500 focus:ring-accent-500;
+  }
+
+  .btn-secondary {
+    @apply bg-archeron-700 text-archeron-100 hover:bg-archeron-600 focus:ring-archeron-500 border border-archeron-600;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent text-archeron-300 hover:bg-archeron-800 hover:text-archeron-100 focus:ring-archeron-500;
+  }
+
+  .btn-danger {
+    @apply bg-red-600/90 text-white hover:bg-red-500 focus:ring-red-500;
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-archeron-900 rounded-lg border border-archeron-700/50 shadow-card;
+  }
+
+  .card-hover {
+    @apply card hover:border-archeron-600 hover:shadow-elevated transition-all duration-200;
+  }
+
+  /* Inputs */
+  .input {
+    @apply block w-full rounded-md bg-archeron-800 border-archeron-700 text-archeron-100 placeholder-archeron-500 shadow-subtle focus:border-accent-500 focus:ring-accent-500 sm:text-sm;
+  }
+
+  .input-search {
+    @apply input pl-10;
+  }
+
+  /* Badges */
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-low {
+    @apply bg-green-500/20 text-green-400 ring-1 ring-green-500/30;
+  }
+
+  .badge-medium {
+    @apply bg-yellow-500/20 text-yellow-400 ring-1 ring-yellow-500/30;
+  }
+
+  .badge-high {
+    @apply bg-orange-500/20 text-orange-400 ring-1 ring-orange-500/30;
+  }
+
+  .badge-critical {
+    @apply bg-red-500/20 text-red-400 ring-1 ring-red-500/30;
+  }
+
+  .badge-neutral {
+    @apply bg-archeron-700 text-archeron-300 ring-1 ring-archeron-600;
+  }
+
+  /* Tables */
+  .table-header {
+    @apply bg-archeron-800/50 text-archeron-400 text-xs font-medium uppercase tracking-wider;
+  }
+
+  .table-row {
+    @apply border-b border-archeron-800 hover:bg-archeron-800/50 transition-colors;
+  }
+
+  .table-cell {
+    @apply px-6 py-4 text-sm text-archeron-200;
+  }
+
+  /* Navigation */
+  .nav-link {
+    @apply flex items-center gap-3 rounded-md px-3 py-2 text-sm font-medium text-archeron-400 hover:bg-archeron-800 hover:text-archeron-100 transition-colors;
+  }
+
+  .nav-link-active {
+    @apply bg-archeron-800 text-archeron-50 border-l-2 border-accent-500;
+  }
+
+  /* Stats */
+  .stat-card {
+    @apply card p-6 hover:border-archeron-600 transition-all duration-200;
+  }
+
+  .stat-icon {
+    @apply p-3 rounded-lg bg-archeron-800;
+  }
+
+  .stat-value {
+    @apply text-2xl font-bold text-archeron-50;
+  }
+
+  .stat-label {
+    @apply text-sm font-medium text-archeron-400;
+  }
+
+  /* Dividers */
+  .divider {
+    @apply border-t border-archeron-800;
+  }
+
+  /* Page headers */
+  .page-title {
+    @apply text-2xl font-bold text-archeron-50 tracking-tight;
+  }
+
+  .page-subtitle {
+    @apply mt-1 text-sm text-archeron-400;
+  }
+
+  /* Section headers */
+  .section-title {
+    @apply text-lg font-semibold text-archeron-100;
+  }
+
+  /* List items */
+  .list-item {
+    @apply p-4 hover:bg-archeron-800/50 transition-colors cursor-pointer;
+  }
+
+  .list-item-title {
+    @apply text-sm font-medium text-archeron-100;
+  }
+
+  .list-item-subtitle {
+    @apply text-sm text-archeron-400;
+  }
+
+  /* Empty states */
+  .empty-state {
+    @apply text-center py-12 text-archeron-500;
+  }
+
+  /* Loading spinner */
+  .spinner {
+    @apply animate-spin rounded-full border-2 border-archeron-700 border-t-accent-500;
+  }
+}
+
+/* Transitions */
+@layer utilities {
+  .transition-default {
+    @apply transition-all duration-200 ease-in-out;
+  }
+}

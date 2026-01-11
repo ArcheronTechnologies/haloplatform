@@ -1,0 +1,193 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test-backend:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: halo_test
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+
+      redis:
+        image: redis:7
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 6379:6379
+
+      elasticsearch:
+        image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+        env:
+          discovery.type: single-node
+          xpack.security.enabled: false
+        options: >-
+          --health-cmd "curl -f http://localhost:9200/_cluster/health || exit 1"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 10
+        ports:
+          - 9200:9200
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        cd src/halo
+        pip install -r requirements.txt
+        pip install pytest pytest-cov pytest-asyncio
+
+    - name: Lint with ruff
+      run: |
+        pip install ruff
+        cd src/halo
+        ruff check . --select E,F,W,I,N || true
+
+    - name: Type check with mypy
+      run: |
+        pip install mypy
+        cd src/halo
+        mypy --install-types --non-interactive . || true
+
+    - name: Run unit tests (fast)
+      env:
+        DATABASE_URL: postgresql+asyncpg://postgres:postgres@localhost:5432/halo_test
+        REDIS_URL: redis://localhost:6379/0
+        ELASTICSEARCH_URL: http://localhost:9200
+        SECRET_KEY: test-secret-key-for-ci-only
+        PII_ENCRYPTION_KEY: test-encryption-key-for-ci-only
+      run: |
+        cd src/halo
+        pytest tests/test_user_management.py tests/test_graph_api.py tests/test_risk_scoring.py tests/test_aml_patterns.py tests/test_watchlist.py -v --tb=short --cov=halo --cov-report=xml
+
+    - name: Run all tests
+      env:
+        DATABASE_URL: postgresql+asyncpg://postgres:postgres@localhost:5432/halo_test
+        REDIS_URL: redis://localhost:6379/0
+        ELASTICSEARCH_URL: http://localhost:9200
+        SECRET_KEY: test-secret-key-for-ci-only
+        PII_ENCRYPTION_KEY: test-encryption-key-for-ci-only
+      run: |
+        cd src/halo
+        pytest tests/ -v --tb=short -x --ignore=tests/test_api_integration.py --ignore=tests/test_api_e2e.py
+
+    - name: Upload coverage reports
+      uses: codecov/codecov-action@v4
+      with:
+        file: ./src/halo/coverage.xml
+        flags: backend
+        name: backend-coverage
+      if: always()
+
+  test-frontend:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        cache-dependency-path: src/halo/ui/package-lock.json
+
+    - name: Install dependencies
+      run: |
+        cd src/halo/ui
+        npm ci
+
+    - name: Lint
+      run: |
+        cd src/halo/ui
+        npm run lint || true
+
+    - name: Type check
+      run: |
+        cd src/halo/ui
+        npx tsc --noEmit
+
+    - name: Build
+      run: |
+        cd src/halo/ui
+        npm run build
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: frontend-build
+        path: src/halo/ui/dist
+        retention-days: 7
+
+  security-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Run Trivy vulnerability scanner
+      uses: aquasecurity/trivy-action@master
+      with:
+        scan-type: 'fs'
+        scan-ref: '.'
+        format: 'sarif'
+        output: 'trivy-results.sarif'
+
+    - name: Upload Trivy results to GitHub Security
+      uses: github/codeql-action/upload-sarif@v3
+      with:
+        sarif_file: 'trivy-results.sarif'
+      if: always()
+
+    - name: Python security audit
+      run: |
+        pip install pip-audit
+        cd src/halo
+        pip-audit -r requirements.txt || true
+
+  code-quality:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: SonarCloud Scan
+      uses: SonarSource/sonarcloud-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      with:
+        args: >
+          -Dsonar.projectKey=halo-platform
+          -Dsonar.organization=your-org
+          -Dsonar.sources=src/halo
+          -Dsonar.tests=src/halo/tests
+          -Dsonar.python.coverage.reportPaths=src/halo/coverage.xml
+      if: env.SONAR_TOKEN != ''

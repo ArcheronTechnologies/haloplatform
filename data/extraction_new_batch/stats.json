@@ -1,0 +1,11 @@
+{
+  "total": 2000,
+  "processed": 1989,
+  "found": 2000,
+  "has_docs": 529,
+  "extracted": 529,
+  "directors_found": 779,
+  "errors": 0,
+  "start_time": "2025-12-23T16:41:26.951007",
+  "end_time": "2025-12-23T18:39:39.967366"
+}

@@ -1,0 +1,1379 @@
+[
+  {
+    "orgnr": "5590024880",
+    "document_id": "180d5db0-9205-46d4-971e-84a6ade837fa_paket",
+    "company_name": "Netonyx AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2022-06-23",
+    "processing_time_ms": 4,
+    "directors": [
+      {
+        "first_name": "Mekha",
+        "last_name": "Mohan",
+        "full_name": "Mekha Mohan",
+        "role": "Verkställande direktör",
+        "role_normalized": "VD",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590050802",
+    "document_id": "be22223c-f457-4b0e-838e-9963397cf3a5_paket",
+    "company_name": "SRW Anderstorp AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2019-07-30",
+    "processing_time_ms": 9,
+    "directors": [
+      {
+        "first_name": "Peter",
+        "last_name": "Eklund",
+        "full_name": "Peter Eklund",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Ingvar",
+        "last_name": "Wernvik",
+        "full_name": "Ingvar Wernvik",
+        "role": "Verkställande direktör",
+        "role_normalized": "VD",
+        "confidence": 1.0,
+        "source_field": "se-gen-base:UnderskriftArsredovisningForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Anderz",
+        "last_name": "Johansson",
+        "full_name": "Anderz Johansson",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftArsredovisningForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Carry",
+        "last_name": "Mårtensson",
+        "full_name": "Carry Mårtensson",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftArsredovisningForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Ola",
+        "last_name": "Fälth",
+        "full_name": "Ola Fälth",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftRevisorspateckningRevisorTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590076559",
+    "document_id": "e4d60821-6c03-41ed-a690-ab8ab3b15122_paket",
+    "company_name": "Impel IT AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2023-03-14",
+    "processing_time_ms": 9,
+    "directors": [
+      {
+        "first_name": "Metin",
+        "last_name": "Arman",
+        "full_name": "Metin Arman",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Patrik",
+        "last_name": "Karlsson",
+        "full_name": "Patrik Karlsson",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftArsredovisningForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Joachim",
+        "last_name": "Eriksson",
+        "full_name": "Joachim Eriksson",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftArsredovisningForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Johan",
+        "last_name": "Wigell",
+        "full_name": "Johan Wigell",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftRevisorspateckningRevisorTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590092986",
+    "document_id": "011ec09a-10e7-4d72-b519-b0debb5b5482_paket",
+    "company_name": "Iderex AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2023-06-30",
+    "processing_time_ms": 6,
+    "directors": [
+      {
+        "first_name": "Joe",
+        "last_name": "Steen",
+        "full_name": "Joe Steen",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590095104",
+    "document_id": "ab3011e0-9a70-4f3a-bbec-cd377de977af_paket",
+    "company_name": "Henryssons Entreprenad AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2023-09-08",
+    "processing_time_ms": 8,
+    "directors": [
+      {
+        "first_name": "Jens",
+        "last_name": "Henrysson",
+        "full_name": "Jens Henrysson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590117528",
+    "document_id": "83062d10-be64-4850-b269-26e0400c3fa3_paket",
+    "company_name": "CGEM Inv AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9000000000000001,
+    "signature_date": "2020-06-11",
+    "processing_time_ms": 7,
+    "directors": [
+      {
+        "first_name": "Magnus",
+        "last_name": "Tidstrand",
+        "full_name": "Magnus Tidstrand",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Patrik",
+        "last_name": "Högström",
+        "full_name": "Patrik Högström",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftRevisorspateckningRevisorTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590140959",
+    "document_id": "6896db81-8a8a-4a6d-b68c-4348394e0ade_paket",
+    "company_name": "K Kallebo AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2025-09-17",
+    "processing_time_ms": 10,
+    "directors": [
+      {
+        "first_name": "Kristin",
+        "last_name": "Kallebo Ydrén",
+        "full_name": "Kristin Kallebo Ydrén",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590146535",
+    "document_id": "d5f4d5a8-03e7-4be7-b2c8-0cd88140b0ba_paket",
+    "company_name": "Nya Norrskens Grupp AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.8,
+    "signature_date": "2019-10-25",
+    "processing_time_ms": 11,
+    "directors": [
+      {
+        "first_name": "Jörgen",
+        "last_name": "Anderén",
+        "full_name": "Jörgen Anderén",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-bol-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590165949",
+    "document_id": "48f83b55-2fa0-45e3-96b6-e5909768fa31_paket",
+    "company_name": "Strandbergs Fönsterputs o Städ AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9000000000000001,
+    "signature_date": "2025-04-28",
+    "processing_time_ms": 6,
+    "directors": [
+      {
+        "first_name": "Jens",
+        "last_name": "Lindquist",
+        "full_name": "Jens Lindquist",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Heléne",
+        "last_name": "Abenius",
+        "full_name": "Heléne Abenius",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftHandlingTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590212824",
+    "document_id": "e264e1f0-e468-4516-a3da-3cdb7ce5a8e4_paket",
+    "company_name": "Agar Mat Aktiebolag",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2022-07-29",
+    "processing_time_ms": 4,
+    "directors": [
+      {
+        "first_name": "Owe",
+        "last_name": "Bergsten",
+        "full_name": "Owe Bergsten",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Andreas",
+        "last_name": "G. Barkman",
+        "full_name": "Andreas G. Barkman",
+        "role": "Verkställande direktör",
+        "role_normalized": "VD",
+        "confidence": 1.0,
+        "source_field": "se-gen-base:UnderskriftArsredovisningForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590223557",
+    "document_id": "7c5dfbf5-782f-486f-b910-f91d1f2a84e8_paket",
+    "company_name": "Termino C 9034 AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2021-07-28",
+    "processing_time_ms": 5,
+    "directors": [
+      {
+        "first_name": "Björn-Erik",
+        "last_name": "Sundström",
+        "full_name": "Björn-Erik Sundström",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590226725",
+    "document_id": "086480fe-416b-4e02-ab83-73f110832e2a_paket",
+    "company_name": "Arinell & Sand Redovisning AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2024-02-05",
+    "processing_time_ms": 4,
+    "directors": [
+      {
+        "first_name": "Matilda",
+        "last_name": "Sand",
+        "full_name": "Matilda Sand",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590249651",
+    "document_id": "6344c516-2491-4d56-90c1-0ec275645bee_paket",
+    "company_name": "Malimo AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2021-03-01",
+    "processing_time_ms": 5,
+    "directors": [
+      {
+        "first_name": "Lisa",
+        "last_name": "Johansson",
+        "full_name": "Lisa Johansson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590279526",
+    "document_id": "005d5acd-3116-40b3-8351-c96b6291d2a8_paket",
+    "company_name": "Himax AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9000000000000001,
+    "signature_date": "2021-09-21",
+    "processing_time_ms": 14,
+    "directors": [
+      {
+        "first_name": "Bengt",
+        "last_name": "Kriström",
+        "full_name": "Bengt Kriström",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Kristofer",
+        "last_name": "Block",
+        "full_name": "Kristofer Block",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftRevisorspateckningRevisorTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590321401",
+    "document_id": "9067fba1-2922-4a8b-b776-5d206f771649_paket",
+    "company_name": "Mindness AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2023-07-20",
+    "processing_time_ms": 5,
+    "directors": [
+      {
+        "first_name": "Jessica",
+        "last_name": "Åsberg",
+        "full_name": "Jessica Åsberg",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590340799",
+    "document_id": "5e384b6b-c345-429d-82f0-5f3c305793b9_paket",
+    "company_name": "H. Corneliussen Maskinservice AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.8,
+    "signature_date": "2021-05-18",
+    "processing_time_ms": 34,
+    "directors": [
+      {
+        "first_name": "Henrik",
+        "last_name": "Corneliussen",
+        "full_name": "Henrik Corneliussen",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-bol-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590372701",
+    "document_id": "2ad3bb6c-4c4a-405a-94ee-94ad0b6918a1_paket",
+    "company_name": "Eknerts Eltjänst AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.8,
+    "signature_date": "2020-05-24",
+    "processing_time_ms": 11,
+    "directors": [
+      {
+        "first_name": "Martin",
+        "last_name": "Eknert",
+        "full_name": "Martin Eknert",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-bol-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590388855",
+    "document_id": "9755624e-7b8d-44c3-aab2-037780fbca2c_paket",
+    "company_name": "Einar AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2023-07-18",
+    "processing_time_ms": 4,
+    "directors": [
+      {
+        "first_name": "Robert",
+        "last_name": "Johansson",
+        "full_name": "Robert Johansson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Robert Einar Seth",
+        "last_name": "Johansson",
+        "full_name": "Robert Einar Seth Johansson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-gen-base:UnderskriftArsredovisningForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590393194",
+    "document_id": "302bb927-6ac3-4bea-b7a1-e95779aae8ca_paket",
+    "company_name": "Slagsta Åkeri AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2022-03-08",
+    "processing_time_ms": 6,
+    "directors": [
+      {
+        "first_name": "Kazim",
+        "last_name": "Ulu",
+        "full_name": "Kazim Ulu",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590399670",
+    "document_id": "f0d20e17-8898-42d4-a0df-edd2b8f73182_paket",
+    "company_name": "Spillersboda Byggmarknad AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.6400000000000001,
+    "signature_date": null,
+    "processing_time_ms": 2,
+    "directors": [
+      {
+        "first_name": "Johanna",
+        "last_name": "Gustavsson",
+        "full_name": "Johanna Gustavsson",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-ar-base:UnderskriftRevisionsberattelseRevisorTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590403613",
+    "document_id": "f2f03a8a-450d-42fd-8bf0-86581f5f9a3b_paket",
+    "company_name": "Renslyckan Holding AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2021-07-28",
+    "processing_time_ms": 1,
+    "directors": [
+      {
+        "first_name": "Jonas",
+        "last_name": "Adolfsson",
+        "full_name": "Jonas Adolfsson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590408117",
+    "document_id": "b4aaad11-584c-41e5-a635-167160cc6e6d_paket",
+    "company_name": "Hönekulla El AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2020-05-31",
+    "processing_time_ms": 4,
+    "directors": [
+      {
+        "first_name": "Charlotta",
+        "last_name": "Holm",
+        "full_name": "Charlotta Holm",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Henrik",
+        "last_name": "Holm",
+        "full_name": "Henrik Holm",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-gen-base:UnderskriftArsredovisningForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590416755",
+    "document_id": "16e0b585-31b1-47c0-84c7-4482529d848c_paket",
+    "company_name": "LMS Teknik & Maskin AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2023-06-30",
+    "processing_time_ms": 2,
+    "directors": [
+      {
+        "first_name": "Mikael",
+        "last_name": "Samuelsson",
+        "full_name": "Mikael Samuelsson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590431010",
+    "document_id": "db7fe890-4433-4098-bc56-ae8cb52473ce_paket",
+    "company_name": "Slutplattan HOBVI 124288 AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2022-02-14",
+    "processing_time_ms": 5,
+    "directors": [
+      {
+        "first_name": "Anita",
+        "last_name": "Bergström Augustsson",
+        "full_name": "Anita Bergström Augustsson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590440375",
+    "document_id": "29f62d3e-d1b1-436c-b216-afa5705ab91a_paket",
+    "company_name": "NFU Norr 11 AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.8,
+    "signature_date": "2025-06-12",
+    "processing_time_ms": 12,
+    "directors": [
+      {
+        "first_name": "Rolf",
+        "last_name": "Andersson",
+        "full_name": "Rolf Andersson",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-bol-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590440979",
+    "document_id": "3a3d3019-eba6-430c-b897-f9e6707bdb13_paket",
+    "company_name": "R Lantz Holding i Klippan AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.8,
+    "signature_date": "2022-02-09",
+    "processing_time_ms": 13,
+    "directors": [
+      {
+        "first_name": "Ramona",
+        "last_name": "Lantz",
+        "full_name": "Ramona Lantz",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-bol-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590528773",
+    "document_id": "7cff7704-2669-457c-a3c5-887076aa7db5_paket",
+    "company_name": "Hammar Psychology & Health AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2021-06-23",
+    "processing_time_ms": 7,
+    "directors": [
+      {
+        "first_name": "Robert",
+        "last_name": "Hammar",
+        "full_name": "Robert Hammar",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590535331",
+    "document_id": "238a9631-5a73-48b1-860b-e72dc0b12f8f_paket",
+    "company_name": "Åraslövs Gods AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2020-05-25",
+    "processing_time_ms": 9,
+    "directors": [
+      {
+        "first_name": "Alexis",
+        "last_name": "Barnekow",
+        "full_name": "Alexis Barnekow",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590538467",
+    "document_id": "daee7ccf-382f-4fad-8443-f7ca9bc818c5_paket",
+    "company_name": "Allfixarn John Olsson AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2020-07-31",
+    "processing_time_ms": 3,
+    "directors": [
+      {
+        "first_name": "John",
+        "last_name": "Olsson",
+        "full_name": "John Olsson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590543889",
+    "document_id": "717b3dfb-5e6c-4f54-8981-9e5b36c087c5_paket",
+    "company_name": "Birgersson media AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2020-06-22",
+    "processing_time_ms": 7,
+    "directors": [
+      {
+        "first_name": "Anders",
+        "last_name": "Birgersson",
+        "full_name": "Anders Birgersson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590629795",
+    "document_id": "df93b938-7a95-4922-bb70-b609712e1511_paket",
+    "company_name": "SZ Medical Consulting AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2020-10-02",
+    "processing_time_ms": 4,
+    "directors": [
+      {
+        "first_name": "Sepehr",
+        "last_name": "Zanjani",
+        "full_name": "Sepehr Zanjani",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590643416",
+    "document_id": "375d17c8-4e34-4042-a714-5415bd002185_paket",
+    "company_name": "Yunnan Solna AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.8,
+    "signature_date": "2025-03-12",
+    "processing_time_ms": 10,
+    "directors": [
+      {
+        "first_name": "Cunfen",
+        "last_name": "Huang",
+        "full_name": "Cunfen Huang",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-bol-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590648811",
+    "document_id": "b9d1cb50-bc24-4a48-8857-dd2034fd28bb_paket",
+    "company_name": "Uppsala psykoterapi- och samtalsmottagning AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2020-12-03",
+    "processing_time_ms": 4,
+    "directors": [
+      {
+        "first_name": "Birgitta",
+        "last_name": "Richardsson",
+        "full_name": "Birgitta Richardsson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590669973",
+    "document_id": "520242e5-dbf6-45ee-a50a-239a4760beb6_paket",
+    "company_name": "FLT Service Aktiebolag",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2020-05-29",
+    "processing_time_ms": 7,
+    "directors": [
+      {
+        "first_name": "Ivan",
+        "last_name": "Golubovic",
+        "full_name": "Ivan Golubovic",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590679980",
+    "document_id": "71c8ae6a-7518-49d3-b00a-d63f36cca804_paket",
+    "company_name": "Myskje 4:15 AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2019-12-21",
+    "processing_time_ms": 4,
+    "directors": [
+      {
+        "first_name": "Annika Maria",
+        "last_name": "Backlund",
+        "full_name": "Annika Maria Backlund",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-bol-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590722459",
+    "document_id": "bc88f8c9-daa3-46bc-a528-e4e4c0358f96_paket",
+    "company_name": "Stockholm Diligensen 12 Fastighets AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.6400000000000001,
+    "signature_date": null,
+    "processing_time_ms": 5,
+    "directors": [
+      {
+        "first_name": "Peter",
+        "last_name": "Cederblad",
+        "full_name": "Peter Cederblad",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-ar-base:UnderskriftRevisionsberattelseRevisorTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590733571",
+    "document_id": "4bc7c5db-0f18-4001-b364-60ba167051fe_paket",
+    "company_name": "Frodde 7 Fastighetsförvaltning AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2025-02-19",
+    "processing_time_ms": 9,
+    "directors": [
+      {
+        "first_name": "Thomas",
+        "last_name": "Helgesson",
+        "full_name": "Thomas Helgesson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Tommy",
+        "last_name": "Helgesson",
+        "full_name": "Tommy Helgesson",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftHandlingTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590742309",
+    "document_id": "635eeed7-cc70-4ee0-868c-09b27a1c26c7_paket",
+    "company_name": "Primum Sanqora AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2023-05-10",
+    "processing_time_ms": 6,
+    "directors": [
+      {
+        "first_name": "Anneli Ingeborg Helén",
+        "last_name": "Ödén",
+        "full_name": "Anneli Ingeborg Helén Ödén",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590753710",
+    "document_id": "305c9a21-2b09-40b4-881e-25624c96da26_paket",
+    "company_name": "Danilo Bejarano AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2024-02-13",
+    "processing_time_ms": 6,
+    "directors": [
+      {
+        "first_name": "Dan",
+        "last_name": "Bejarano",
+        "full_name": "Dan Bejarano",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590759980",
+    "document_id": "d111229a-9450-4a42-9bf4-869fc5a47d2d_paket",
+    "company_name": "Jan Persson på Kössö AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.6400000000000001,
+    "signature_date": null,
+    "processing_time_ms": 3,
+    "directors": [
+      {
+        "first_name": "Sören",
+        "last_name": "Maxén",
+        "full_name": "Sören Maxén",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-ar-base:UnderskriftRevisionsberattelseRevisorTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590765045",
+    "document_id": "b5d99c73-e8dd-441e-a3a5-e4ab06cbbe4e_paket",
+    "company_name": "Pelarhuset Hotell AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9833333333333333,
+    "signature_date": "2022-06-16",
+    "processing_time_ms": 3,
+    "directors": [
+      {
+        "first_name": "Dan",
+        "last_name": "Eriksson",
+        "full_name": "Dan Eriksson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Morgan",
+        "last_name": "Söderberg",
+        "full_name": "Morgan Söderberg",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftRevisorspateckningRevisorTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590770557",
+    "document_id": "19e9ac43-0c0c-4b40-bef6-8cf30ab298cf_paket",
+    "company_name": "Teater Storan AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2025-06-30",
+    "processing_time_ms": 12,
+    "directors": [
+      {
+        "first_name": "Kålle",
+        "last_name": "Gunnarsson",
+        "full_name": "Kålle Gunnarsson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590830807",
+    "document_id": "805356a7-b253-44a4-a9c6-436d447858c4_paket",
+    "company_name": "Aspgren Holding AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2020-10-27",
+    "processing_time_ms": 4,
+    "directors": [
+      {
+        "first_name": "Anders",
+        "last_name": "Aspgren",
+        "full_name": "Anders Aspgren",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590847199",
+    "document_id": "e4ea1dde-6106-46dc-a0ea-b15681c63f70_paket",
+    "company_name": "Stefans Däckservice AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9000000000000001,
+    "signature_date": "2023-05-30",
+    "processing_time_ms": 9,
+    "directors": [
+      {
+        "first_name": "Stefan",
+        "last_name": "Hansson",
+        "full_name": "Stefan Hansson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Christian",
+        "last_name": "Nilsson",
+        "full_name": "Christian Nilsson",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftHandlingTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590852173",
+    "document_id": "3c48564f-3b08-4920-a592-4a20004099d1_paket",
+    "company_name": "Norrvikens Kust Tennis Club AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9000000000000001,
+    "signature_date": "2024-04-18",
+    "processing_time_ms": 8,
+    "directors": [
+      {
+        "first_name": "John",
+        "last_name": "Brolin",
+        "full_name": "John Brolin",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Per",
+        "last_name": "Östholm",
+        "full_name": "Per Östholm",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftHandlingTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590866140",
+    "document_id": "59ecb299-3860-4b03-bd54-ea861537088b_paket",
+    "company_name": "MOLO Fastigheter AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2019-03-26",
+    "processing_time_ms": 6,
+    "directors": [
+      {
+        "first_name": "Martin",
+        "last_name": "Ohlsson",
+        "full_name": "Martin Ohlsson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590891379",
+    "document_id": "0f94028f-e9f6-4f39-ac8b-e494e09d2e88_paket",
+    "company_name": "SöderEka Bygg & Förvaltning AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2025-08-11",
+    "processing_time_ms": 3,
+    "directors": [
+      {
+        "first_name": "Henrik",
+        "last_name": "Silverforsen",
+        "full_name": "Henrik Silverforsen",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590896584",
+    "document_id": "682efe56-ea25-411e-8298-c3127a4d80a6_paket",
+    "company_name": "Hakka Holding AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2021-11-10",
+    "processing_time_ms": 7,
+    "directors": [
+      {
+        "first_name": "Erik",
+        "last_name": "Hakkarainen",
+        "full_name": "Erik Hakkarainen",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590901053",
+    "document_id": "99beaa6e-57de-4ecd-bc9b-f807805b91a7_paket",
+    "company_name": "Reko Öland AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9000000000000001,
+    "signature_date": "2025-06-12",
+    "processing_time_ms": 11,
+    "directors": [
+      {
+        "first_name": "Johan",
+        "last_name": "Gustafsson",
+        "full_name": "Johan Gustafsson",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Håkan",
+        "last_name": "Sporrong",
+        "full_name": "Håkan Sporrong",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftHandlingTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590907316",
+    "document_id": "2105501b-c44d-4a2e-a83e-9b0730274a28_paket",
+    "company_name": "Redovisningskonsult BTW AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.8,
+    "signature_date": "2021-10-22",
+    "processing_time_ms": 11,
+    "directors": [
+      {
+        "first_name": "Bo",
+        "last_name": "Wetterström",
+        "full_name": "Bo Wetterström",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-bol-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590934013",
+    "document_id": "427d2325-020d-4b68-93ec-5d4f17f28ba9_paket",
+    "company_name": "Tomtemor AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 1.0,
+    "signature_date": "2020-03-27",
+    "processing_time_ms": 6,
+    "directors": [
+      {
+        "first_name": "Annelie Maria",
+        "last_name": "Strand",
+        "full_name": "Annelie Maria Strand",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590959465",
+    "document_id": "417836af-6189-49bf-bc85-b4bbb49bd02b_paket",
+    "company_name": "M.Mira AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.6400000000000001,
+    "signature_date": null,
+    "processing_time_ms": 2,
+    "directors": [
+      {
+        "first_name": "Daniel",
+        "last_name": "Boström",
+        "full_name": "Daniel Boström",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-ar-base:UnderskriftRevisionsberattelseRevisorTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590978374",
+    "document_id": "042f2e1c-1b30-497e-8040-a89df70bff40_paket",
+    "company_name": "Maralago Properties AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.8833333333333334,
+    "signature_date": "2023-11-24",
+    "processing_time_ms": 9,
+    "directors": [
+      {
+        "first_name": "Daniel",
+        "last_name": "Nämnd",
+        "full_name": "Daniel Nämnd",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      },
+      {
+        "first_name": "Kjell",
+        "last_name": "Nämnd",
+        "full_name": "Kjell Nämnd",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftHandlingTilltalsnamn"
+      },
+      {
+        "first_name": "Johan",
+        "last_name": "Nämnd",
+        "full_name": "Johan Nämnd",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftHandlingTilltalsnamn"
+      },
+      {
+        "first_name": "Emil",
+        "last_name": "Forsling",
+        "full_name": "Emil Forsling",
+        "role": "unknown",
+        "role_normalized": "UNKNOWN",
+        "confidence": 0.8,
+        "source_field": "se-gen-base:UnderskriftHandlingTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  },
+  {
+    "orgnr": "5590994439",
+    "document_id": "ac378538-aade-4266-a872-ee9f5ceae720_paket",
+    "company_name": "Phantom Studios AB",
+    "extraction_method": "xbrl",
+    "extraction_confidence": 0.9500000000000001,
+    "signature_date": "2023-06-09",
+    "processing_time_ms": 5,
+    "directors": [
+      {
+        "first_name": "Magnus",
+        "last_name": "Burvall",
+        "full_name": "Magnus Burvall",
+        "role": "Styrelseledamot",
+        "role_normalized": "STYRELSELEDAMOT",
+        "confidence": 1.0,
+        "source_field": "se-comp-base:UnderskriftFaststallelseintygForetradareTilltalsnamn"
+      }
+    ],
+    "auditors": [],
+    "warnings": []
+  }
+]
