@@ -1,3 +1,24 @@
+<!--
+  THIS IS A REDACTED VERSION FOR PUBLIC REPOSITORY
+  Original with full API details: api_findings.local.md
+  Redacted: API endpoints, credentials, rate limits, data layouts
+  For internal use, see: .data_sources_local/
+-->
+
+<!--
+  THIS IS A REDACTED VERSION FOR PUBLIC REPOSITORY
+  Original with full API details: api_findings.local.md
+  Redacted: API endpoints, credentials, rate limits, data layouts
+  For internal use, see: .data_sources_local/
+-->
+
+<!--
+  THIS IS A REDACTED VERSION FOR PUBLIC REPOSITORY
+  Original with full API details: api_findings.local.md
+  Redacted: API endpoints, credentials, rate limits, data layouts
+  For internal use, see: .data_sources_local/
+-->
+
 # Bolagsverket HVD API - Exploration Findings
 
 ## Summary
@@ -10,10 +31,10 @@ The free HVD API only provides basic company registration data. Director informa
 
 ## API Details
 
-- **Base URL (Prod)**: `https://gw.api.bolagsverket.se/vardefulla-datamangder/v1`
-- **Base URL (Test)**: `https://gw-accept2.api.bolagsverket.se/vardefulla-datamangder/v1`
+- **Base URL (Prod)**: `[REDACTED_GOV_API]
+- **Base URL (Test)**: `[REDACTED_GOV_API]
 - **Auth**: OAuth2 Client Credentials
-- **Token URL**: `https://portal.api.bolagsverket.se/oauth2/token`
+- **Token URL**: `[REDACTED_GOV_API]
 - **Rate Limit**: 60 requests/minute per user (1 req/sec)
 
 ## Available Endpoints (Confirmed Working)

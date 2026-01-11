@@ -1,3 +1,24 @@
+<!--
+  THIS IS A REDACTED VERSION FOR PUBLIC REPOSITORY
+  Original with full API details: SCB_DATA_PLAN.local.md
+  Redacted: API endpoints, credentials, rate limits, data layouts
+  For internal use, see: .data_sources_local/
+-->
+
+<!--
+  THIS IS A REDACTED VERSION FOR PUBLIC REPOSITORY
+  Original with full API details: SCB_DATA_PLAN.local.md
+  Redacted: API endpoints, credentials, rate limits, data layouts
+  For internal use, see: .data_sources_local/
+-->
+
+<!--
+  THIS IS A REDACTED VERSION FOR PUBLIC REPOSITORY
+  Original with full API details: SCB_DATA_PLAN.local.md
+  Redacted: API endpoints, credentials, rate limits, data layouts
+  For internal use, see: .data_sources_local/
+-->
+
 # SCB Data Access Plan
 
 Statistics Sweden (SCB) provides two main types of data access relevant to Halo:
@@ -19,7 +40,7 @@ Statistics Sweden (SCB) provides two main types of data access relevant to Halo:
 
 ### API Endpoints
 ```
-Base: https://api.scb.se/foretagsregistret/v1
+Base: [REDACTED_API_ENDPOINT]
 GET  /je/{orgnr}      - Fetch company by org number
 GET  /ae/{cfar}       - Fetch workplace by CFAR
 POST /je/search       - Search companies
@@ -36,11 +57,11 @@ POST /je/search       - Search companies
 ## 2. SCB Statistical Database (PxWeb API)
 
 **Access:** Open, no registration required
-**Rate Limit:** 10 requests per 10 seconds, max 100K values per query
+**Rate Limit:** [REDACTED_RATE_LIMIT], max 100K values per query
 **Data:** Aggregate statistics (not individual records)
 
 ### API Versions
-- **v1 (current):** `https://api.scb.se/OV0104/v1/doris/en/ssd/`
+- **v1 (current):** `[REDACTED_API_ENDPOINT]
 - **v2 (new, Oct 2025):** `https://statistikdatabasen.scb.se/api/v2/`
 
 ### Available Subject Areas

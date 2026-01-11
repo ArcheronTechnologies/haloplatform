@@ -488,7 +488,7 @@ class AllabolagAdapter:
         return ProvenanceCreate(
             source_type=SourceType.ALLABOLAG_SCRAPE,
             source_id=f"allabolag:{scraped_at}",
-            source_url="https://www.allabolag.se",
+            source_url="[REDACTED_COMMERCIAL_API]",
             extraction_method="web_scraper",
             extraction_timestamp=datetime.fromisoformat(scraped_at),
             extraction_system_version="allabolag_scraper_v1",

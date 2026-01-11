@@ -1,3 +1,24 @@
+<!--
+  THIS IS A REDACTED VERSION FOR PUBLIC REPOSITORY
+  Original with full API details: API_COMPLIANCE.local.md
+  Redacted: API endpoints, credentials, rate limits, data layouts
+  For internal use, see: .data_sources_local/
+-->
+
+<!--
+  THIS IS A REDACTED VERSION FOR PUBLIC REPOSITORY
+  Original with full API details: API_COMPLIANCE.local.md
+  Redacted: API endpoints, credentials, rate limits, data layouts
+  For internal use, see: .data_sources_local/
+-->
+
+<!--
+  THIS IS A REDACTED VERSION FOR PUBLIC REPOSITORY
+  Original with full API details: API_COMPLIANCE.local.md
+  Redacted: API endpoints, credentials, rate limits, data layouts
+  For internal use, see: .data_sources_local/
+-->
+
 # Swedish Government API Compliance Notes
 
 This document summarizes the terms of use for Swedish government APIs used by Halo.
@@ -12,7 +33,7 @@ This document summarizes the terms of use for Swedish government APIs used by Ha
 - Applies to all statistical data in the Statistical Database and open geospatial data
 
 ### Rate Limits
-- **Maximum 10 requests per 10 seconds** per IP address
+- **Maximum [REDACTED_RATE_LIMIT]** per IP address
 - Maximum 100,000 values per table
 - HTTP 403 response indicates limit exceeded
 
@@ -34,7 +55,7 @@ RATE_WINDOW = 10  # seconds
 
 ## Bolagsverket (Swedish Companies Registration Office) API
 
-**Developer Portal:** https://portal.api.bolagsverket.se/devportal/
+**Developer Portal:** [REDACTED_GOV_API]
 
 ### Registration Required
 - Registration through the developer portal is required

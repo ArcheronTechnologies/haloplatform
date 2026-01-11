@@ -4,8 +4,8 @@ Bolagsverket HVD (Värdefulla Datamängder / High Value Datasets) API adapter.
 API for Swedish company information from Bolagsverket (Companies Registration Office).
 This is the free "High Value Datasets" API providing basic company registration data.
 
-Portal: https://portal.api.bolagsverket.se/
-API Docs: https://gw.api.bolagsverket.se/vardefulla-datamangder/v1
+Portal: [REDACTED_GOV_API]
+API Docs: [REDACTED_GOV_API]
 
 Available endpoints:
 - GET /isalive - Health check
@@ -223,12 +223,12 @@ class BolagsverketHVDAdapter(BaseAdapter):
     """
 
     # API Gateway URLs
-    PROD_BASE_URL = "https://gw.api.bolagsverket.se/vardefulla-datamangder/v1"
-    TEST_BASE_URL = "https://gw-accept2.api.bolagsverket.se/vardefulla-datamangder/v1"
+    PROD_BASE_URL = "[REDACTED_GOV_API]"
+    TEST_BASE_URL = "[REDACTED_GOV_API]"
 
     # OAuth2 Token Endpoints
-    PROD_TOKEN_URL = "https://portal.api.bolagsverket.se/oauth2/token"
-    TEST_TOKEN_URL = "https://portal-accept2.api.bolagsverket.se/oauth2/token"
+    PROD_TOKEN_URL = "[REDACTED_GOV_API]"
+    TEST_TOKEN_URL = "[REDACTED_GOV_API]"
 
     # Required OAuth2 scopes
     OAUTH_SCOPES = f"{OAuthScope.PING.value} {OAuthScope.READ.value}"

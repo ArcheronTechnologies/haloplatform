@@ -2,11 +2,11 @@
 SCB PxWeb API adapter for the Statistical Database.
 
 FREE API - No registration required (but rate limited).
-Docs: https://www.scb.se/en/services/open-data-api/pxwebapi/
+Docs: [REDACTED_API_ENDPOINT]
 
 API Versions:
-- v1 (current): https://api.scb.se/OV0104/v1/doris/en/ssd/
-- v2 (new Oct 2025): https://statistikdatabasen.scb.se/api/v2/
+- v1 (current): [REDACTED_API_ENDPOINT]
+- v2 (new Oct 2025): [REDACTED_API_ENDPOINT]
 
 Rate limits:
 - 10 requests per 10 seconds per IP
@@ -89,10 +89,10 @@ class SCBPxWebAdapter(BaseAdapter):
     """
 
     # API v1 (current) - will be deprecated fall 2025
-    BASE_URL_V1 = "https://api.scb.se/OV0104/v1/doris/en/ssd"
+    BASE_URL_V1 = "[REDACTED_API_ENDPOINT]"
 
     # API v2 (new) - RESTful design
-    BASE_URL_V2 = "https://statistikdatabasen.scb.se/api/v2"
+    BASE_URL_V2 = "[REDACTED_API_ENDPOINT]"
 
     # Subject area codes
     SUBJECT_AREAS = {

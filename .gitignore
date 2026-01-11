@@ -145,6 +145,20 @@ data/icij/*.csv
 data/extraction_*/results.json
 data/extraction_*/progress.json
 data/extraction_*/stats.json
+data/test_extraction/
+data/test_559_extraction/
 raw_html/**/*.html.gz
 data/*.xhtml
 data/*.pdf
+
+# Data source sensitive information (keep locally only)
+*.local.md
+*.local.py
+*.local.json
+.data_sources_local/
+Data_credentials.md
+
+# Sensitive API documentation
+src/halo/ingestion/API_COMPLIANCE.local.md
+src/halo/ingestion/SCB_DATA_PLAN.local.md
+docs/api_findings.local.md

@@ -5,7 +5,7 @@ FREE API as of June 2025 (EU High Value Datasets directive).
 Contains all 1.8M Swedish companies and 1.4M workplaces.
 
 Registration: Email scbforetag@scb.se for certificate + password.
-Docs: https://privateapi.scb.se/nv0101/v1/sokpavar/help
+Docs: [REDACTED_API_ENDPOINT]
 
 Rate limit: 10 requests per 10 seconds
 Max rows per request: 2000
@@ -31,7 +31,7 @@ class SCBForetagAdapter(BaseAdapter):
     """
     Adapter for SCB Företagsregistret (Swedish Business Register).
 
-    API URL: https://privateapi.scb.se/nv0101/v1/sokpavar
+    API URL: [REDACTED_API_ENDPOINT]
 
     Data available:
     - Organisationsnummer (PeOrgNr - 12 digits)
@@ -43,7 +43,7 @@ class SCBForetagAdapter(BaseAdapter):
     - F-skatt, Moms, Arbetsgivare registration
     """
 
-    BASE_URL = "https://privateapi.scb.se/nv0101/v1/sokpavar"
+    BASE_URL = "[REDACTED_API_ENDPOINT]"
 
     def __init__(
         self,
