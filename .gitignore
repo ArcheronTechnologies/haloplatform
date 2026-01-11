@@ -135,3 +135,5 @@ docker-compose.override.yml
 .github/secrets/
 Data_credentials.md
 .claude/settings.local.json
+*.db-wal
+*.db-shm
