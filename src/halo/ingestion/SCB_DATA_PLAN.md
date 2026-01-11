@@ -26,6 +26,13 @@
   For internal use, see: .data_sources_local/
 -->
 
+<!--
+  THIS IS A REDACTED VERSION FOR PUBLIC REPOSITORY
+  Original with full API details: SCB_DATA_PLAN.local.md
+  Redacted: API endpoints, credentials, rate limits, data layouts
+  For internal use, see: .data_sources_local/
+-->
+
 # SCB Data Access Plan
 
 Statistics Sweden (SCB) provides two main types of data access relevant to Halo:

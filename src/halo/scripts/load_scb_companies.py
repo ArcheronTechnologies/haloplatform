@@ -40,7 +40,7 @@ class SCBGraphLoader:
     ):
         self.adapter = adapter or SCBForetagAdapter(
             cert_path=Path('./halo/secrets/scb_cert.p12'),
-            cert_password='uyMBu2LtKfiY',
+            cert_password='[REDACTED_PASSWORD]',
         )
         self.graph = graph or GraphClient()
         self._address_cache: dict[str, str] = {}

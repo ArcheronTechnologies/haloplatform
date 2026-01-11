@@ -26,6 +26,13 @@
   For internal use, see: .data_sources_local/
 -->
 
+<!--
+  THIS IS A REDACTED VERSION FOR PUBLIC REPOSITORY
+  Original with full API details: API_COMPLIANCE.local.md
+  Redacted: API endpoints, credentials, rate limits, data layouts
+  For internal use, see: .data_sources_local/
+-->
+
 # Swedish Government API Compliance Notes
 
 This document summarizes the terms of use for Swedish government APIs used by Halo.

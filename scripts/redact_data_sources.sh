@@ -141,10 +141,13 @@ for file in "${PYTHON_FILES[@]}"; do
             -e 's|https://[^ "]*bolagsverket\.se[^ "]*|[REDACTED_GOV_API]|g' \
             -e 's|https://[^ "]*allabolag\.se[^ "]*|[REDACTED_COMMERCIAL_API]|g' \
             -e 's|"uyMBu2LtKfiY"|"[REDACTED_PASSWORD]"|g' \
+            -e "s|'uyMBu2LtKfiY'|'[REDACTED_PASSWORD]'|g" \
             -e 's|=uyMBu2LtKfiY|=[REDACTED_PASSWORD]|g' \
             -e 's|"AnQ27kXW8z4sdOMJHJuFJGf5AFIa"|"[REDACTED_CLIENT_ID]"|g' \
+            -e "s|'AnQ27kXW8z4sdOMJHJuFJGf5AFIa'|'[REDACTED_CLIENT_ID]'|g" \
             -e 's|=AnQ27kXW8z4sdOMJHJuFJGf5AFIa|=[REDACTED_CLIENT_ID]|g' \
             -e 's|"L4bi0Wh_pDiMZ7GrKb9PYd1274oa"|"[REDACTED_CLIENT_SECRET]"|g' \
+            -e "s|'L4bi0Wh_pDiMZ7GrKb9PYd1274oa'|'[REDACTED_CLIENT_SECRET]'|g" \
             -e 's|=L4bi0Wh_pDiMZ7GrKb9PYd1274oa|=[REDACTED_CLIENT_SECRET]|g' \
             -e 's|data/scb_cert\.pfx|data/[REDACTED_CERT]|g' \
             -e 's|/app/secrets/scb_cert\.pfx|/app/secrets/[REDACTED_CERT]|g' \
