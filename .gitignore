@@ -137,3 +137,14 @@ Data_credentials.md
 .claude/settings.local.json
 *.db-wal
 *.db-shm
+
+# Large data files
+data/icij/*.zip
+data/icij/*.csv
+*.pickle
+data/extraction_*/results.json
+data/extraction_*/progress.json
+data/extraction_*/stats.json
+raw_html/**/*.html.gz
+data/*.xhtml
+data/*.pdf
