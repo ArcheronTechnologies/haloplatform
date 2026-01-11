@@ -105,6 +105,7 @@ tmp/
 # API tokens and credentials (CRITICAL!)
 *token*
 *secret*
+!.github/workflows/check-secrets.yml
 *password*
 credentials.json
 auth.json
